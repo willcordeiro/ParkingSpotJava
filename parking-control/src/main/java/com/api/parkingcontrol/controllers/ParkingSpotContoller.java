@@ -15,12 +15,9 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.http.HttpStatus;
 import com.api.parkingcontrol.models.ParkingSpotModel;
 import com.api.parkingcontrol.dtos.ParkingSpotDto;
-
-
 import javax.validation.Valid;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
-import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
